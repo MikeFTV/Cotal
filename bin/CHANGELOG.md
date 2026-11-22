@@ -1,5 +1,26 @@
 # cotal-ai
 
+## 0.174.2
+
+### Patch Changes
+
+- 0aa8d9e: Prevent self-update reconciliation from rolling back because a daemon for another Cotal home is running.
+- 8dfbacd: Stop the shell installer before it makes changes when a file blocks the launcher directory.
+- 4cd9b7e: `cotal setup` no longer fails the selected harness when another installed harness cannot refresh its optional Cotal skills. Setup finishes, refreshes the remaining harnesses, and reports the one it skipped as a warning.
+- Updated dependencies [753e342]
+- Updated dependencies [8dfbacd]
+- Updated dependencies [4cd9b7e]
+  - @cotal-ai/cli@0.174.2
+  - @cotal-ai/manager@0.174.2
+  - @cotal-ai/connector-core@0.174.2
+  - @cotal-ai/auth@0.174.2
+  - @cotal-ai/delivery@0.174.2
+  - @cotal-ai/registry@0.174.2
+  - @cotal-ai/runtime@0.174.2
+  - @cotal-ai/core@0.174.2
+  - @cotal-ai/seat@0.174.2
+  - @cotal-ai/workspace@0.174.2
+
 ## 0.174.1
 
 ### Patch Changes

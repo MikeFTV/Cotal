@@ -1,5 +1,15 @@
 # @cotal-ai/cli
 
+## 0.174.2
+
+### Patch Changes
+
+- 753e342: Remove abandoned update scratch and its Node compile cache when a self-update can confirm the recorded updater and workers have exited.
+- 8dfbacd: Stop the shell installer before it makes changes when a file blocks the launcher directory.
+- 4cd9b7e: `cotal setup` no longer fails the selected harness when another installed harness cannot refresh its optional Cotal skills. Setup finishes, refreshes the remaining harnesses, and reports the one it skipped as a warning.
+- @cotal-ai/core@0.174.2
+  - @cotal-ai/workspace@0.174.2
+
 ## 0.174.1
 
 ### Patch Changes
