@@ -1,5 +1,16 @@
 # @cotal-ai/cli
 
+## 0.174.2
+
+### Patch Changes
+
+- 744d0f8: Keep the explicit space, broker and slot view in the suggested one-manager read after a partial roster result.
+- 1e5fbb4: Keep the intended space in `ps` and live endpoint retry guidance, and name the unknown space and how to correct it when saved endpoint inventory refuses.
+- Updated dependencies [7b7e60c]
+- Updated dependencies [1e5fbb4]
+  - @cotal-ai/core@0.174.2
+  - @cotal-ai/workspace@0.174.2
+
 ## 0.174.1
 
 ### Patch Changes
